@@ -54,9 +54,9 @@ export default (editor, opts = {}) => {
     // Default tabs template
     template: `
       <nav ${attrTabContainer}>
-        <a href="#tab1" ${attrTab}>Tab 1</a>
-        <a href="#tab2" ${attrTab}>Tab 2</a>
-        <a href="#tab3" ${attrTab}>Tab 3</a>
+        <div ${attrTab}>Tab 1</div>
+        <div ${attrTab}>Tab 2</div>
+        <div ${attrTab}>Tab 3</div>
       </nav>
       <div id="tab1" ${attrTabContent}>
         <div>Tab 1 Content</div>
@@ -81,6 +81,7 @@ export default (editor, opts = {}) => {
         display: inline-block;
         border-radius: 3px;
         margin-right: 10px;
+        cursor: pointer;
       }
 
       .tab.tab-active {
