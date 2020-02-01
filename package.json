@@ -1,6 +1,6 @@
 {
-  "name": "grapesjs-tabs",
-  "version": "0.2.2",
+  "name": "mn-grapesjs-tabs",
+  "version": "0.2.4",
   "description": "Simple tabs component plugin for GrapesJS",
   "main": "dist/grapesjs-tabs.min.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/artf/grapesjs-tabs.git"
+    "url": "https://github.com/nema1012/grapesjs-tabs.git"
   },
   "keywords": [
     "grapesjs",
@@ -18,7 +18,6 @@
     "tabs",
     "wysiwyg"
   ],
-  "author": "Artur Arseniev",
   "license": "BSD-3-Clause",
   "devDependencies": {
     "grapesjs-cli": "^1.0.11"
