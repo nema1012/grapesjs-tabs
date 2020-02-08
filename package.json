@@ -1,6 +1,6 @@
 {
   "name": "mn-grapesjs-tabs",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Simple tabs component plugin for GrapesJS",
   "main": "dist/mn-grapesjs-tabs.min.js",
   "scripts": {
