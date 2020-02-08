@@ -9,7 +9,7 @@ export default (dc, { defaultModel, defaultView, ...config }) => {
         name: 'Tab Content',
         draggable: false,
         copyable: false,
-        removable: false,
+        removable: true,
         ...config.tabContentProps
       },
 
